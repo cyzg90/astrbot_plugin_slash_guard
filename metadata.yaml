@@ -1,0 +1,9 @@
+name: astrbot_plugin_slash_guard
+display_name: QQ 官方群聊斜杠 LLM 拦截
+desc: 在 LLM 请求阶段拦截以 / 开头的 QQ 官方机器人群消息；保留正常的指令处理和 @ 对话。
+version: 1.0.0
+author: cyzg90
+repo: https://github.com/cyzg90/astrbot_plugin_slash_guard
+support_platforms:
+  - qq_official
+  - qq_official_webhook
